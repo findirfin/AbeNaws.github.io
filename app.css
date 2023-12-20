@@ -24,11 +24,25 @@ a:visited {
 
 .text {
     z-index: 2;
+    animation: textPulse 5s infinite;  
+  }
+
+  @keyframes textPulse {
+    0% {
+      color: #F3F2F3;
+    }
+    50% {
+      color: rgb(255, 255, 255)2F3;
+    }
+    100% {
+      color: #F3F2F3;
+    }  
   }
 
 .ghost {
     position: absolute;
-    opacity: 20%;
+    opacity: 40%;
+    filter: blur(3px);
     z-index: 1;
   }
 
