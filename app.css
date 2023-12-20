@@ -7,6 +7,6 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
-    font-size: 50px;
+    font-size: 10px;
     color: #F3F2F3;
 }
