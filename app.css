@@ -12,6 +12,16 @@ a {
     text-decoration: none;
 }
 
+a:active {
+  color: #F3F2F3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F3F2F3;
+  text-decoration: none;
+}
+
 .text {
     z-index: 2;
   }
