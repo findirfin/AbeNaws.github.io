@@ -1,0 +1,12 @@
+body {
+    background-color: #1D2556;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 50px;
+    color: #F3F2F3;
+}
