@@ -62,17 +62,17 @@ body {
     }
   } 
 
-.search {
+.headlink {
   color: #F3F2F3;
   text-decoration: underline;
 }
 
-.search:active {
+.headlink:active {
   color: #F3F2F3;
   text-decoration: underline;
 }
 
-.search:visited {
+.headlink:visited {
   color: #F3F2F3;
   text-decoration: underline;
 }
