@@ -60,4 +60,19 @@ body {
     100% {
       background-color: #1D2556;
     }
-  }
+  } 
+
+.search {
+  color: #F3F2F3;
+  text-decoration: underline;
+}
+
+.search:active {
+  color: #F3F2F3;
+  text-decoration: underline;
+}
+
+.search:visited {
+  color: #F3F2F3;
+  text-decoration: underline;
+}
