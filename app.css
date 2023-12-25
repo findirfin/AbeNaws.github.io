@@ -1,10 +1,41 @@
-h1 {
-    position: absolute;
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
     top: 50%;
     left: 50%;
+    position: absolute;
     transform: translate(-50%, -100%);
     font-size: 50px;
     color: #F3F2F3;
+}
+ 
+.main a {
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+
+.main a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  height: 2px;
+  background: #ffffff;
+  transform-origin: right top;
+  transform: scale(0, 1); 
+  transition: transform .2s ease-out;
+}
+
+.main a:hover:after {
+  transform-origin: left top;
+  transform: scale(1, 1); 
 }
 
 a {
