@@ -13,7 +13,7 @@ function handleMouseMove(e) {
   const centerY = window.innerHeight / 2;  
   
   // Calculate distance from center
-  // and scale it down by 10x
+  // and scale it down by 40x
   const distX = (x - centerX) / 40; 
   const distY = (y - centerY) / 40;
 

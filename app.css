@@ -148,22 +148,27 @@ a:hover:after {
   transition: 0.3s;
 }
 
-  /* Style scrollbar thumb on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #ffffff57;
-  }
-
-
-  .projects {
-    display: flex;
-    justify-content: center;
-  }
-
-
-.projects img {
-  height: 150px;
+/* Style scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff57;
 }
 
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.projects a {
+  display: inline;
+  margin-bottom: 10px;
+}
 
+.projects img {
+  height: auto; /* This will maintain the aspect ratio of the images */
+}
+
+.projects div {
+  display: block;
+}
